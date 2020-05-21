@@ -1,7 +1,7 @@
 /* ==========universal themes========== */
 body
 {
-    background-image: url('/images/abstract.jpg');
+    background-image: url('images/abstract.jpg');
     background-position: center;
     height: 100vh;
     font-family: 'Cormorant';
