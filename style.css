@@ -1,0 +1,251 @@
+/* ==========universal themes========== */
+body
+{
+    background-image: url('../personalWebsite/images/abstract.jpg');
+    background-position: center;
+    height: 100vh;
+    font-family: 'Cormorant';
+    color: white;
+}
+
+.navbar-brand
+{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.nav-link
+{
+    font-size: 26px;
+}
+
+.title1
+{
+    font-size: 40px;
+    text-align: center;
+}
+
+.title2
+{
+    font-size: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.fade-in 
+/* make sure the animation works on all browsers! */
+{
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+}
+
+@keyframes fadeIn
+{
+    0% 
+    {
+        opacity:0;
+    }
+    100% 
+    {
+        opacity:1;
+    }
+}
+
+@-moz-keyframes fadeIn 
+{
+    0% 
+    {
+        opacity:0;
+    }
+    100% 
+    {
+        opacity:1;
+    }
+}
+
+@-webkit-keyframes fadeIn 
+{
+    0% 
+    {
+        opacity:0;
+    }
+    100% 
+    {
+        opacity:1;
+    }
+}
+
+@-o-keyframes fadeIn 
+{
+    0% 
+    {
+        opacity:0;
+    }
+    100% 
+    {
+        opacity:1;
+    }
+}
+
+@-ms-keyframes fadeIn
+{
+    0% 
+    {
+        opacity:0;
+    }
+    100% 
+    {
+        opacity:1;
+    }
+}
+
+/* ==========landing page text themes========== */
+.landing h1
+{
+    font-size: 60px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 300px;
+    margin-bottom: 20px;
+}
+
+.landing h2
+{
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* ==========bio page themes========== */
+.bio .container
+{
+    margin-top: 65px;
+    margin-bottom: 65px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: -100px;
+    padding-right: -100px;
+    backdrop-filter: blur(7px);
+}
+
+.bio .description
+{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* ==========academic page themes========== */
+.academics .container
+{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-left: -30px;
+    padding-right: -30px;
+    backdrop-filter: blur(7px);
+}
+
+.academics .item
+{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.academics li 
+{
+    font-size: 18px;
+    list-style: none;
+    text-align: left;
+}
+
+.academics li:before
+{
+    content: "\21C0";
+    margin-right: 5px;
+}
+
+/* ==========skills page themes========== */
+.skills .container
+{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    backdrop-filter: blur(7px);
+}
+
+.skills .item
+{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.skills li 
+{
+    font-size: 18px;
+    list-style: none;
+    text-align: left;
+}
+
+.skills li:before
+{
+    content: "\21C0";
+    margin-right: 5px;
+}
+
+/* ==========hobbies page themes========== */
+.hobbies .container
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    backdrop-filter: blur(7px);
+}
+
+.hobbies .intro
+{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hobbies .item
+{
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.hobbies .description1
+{
+    font-size: 20px;
+    text-align: left;
+}
+
+.hobbies .description2
+{
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.hobbies img
+{
+    margin: auto;
+    display: block;
+}
+
+.hobbies figcaption
+{
+    font-size: 15px; 
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
